@@ -10,11 +10,13 @@
         android:id="@+id/titlebar_tab_index"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <TextView 
+
+    <TextView
         android:id="@+id/tv_index"
         android:layout_margin="6dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="聚脉通okHttp应用"
-    />
+        android:padding="10dp"
+        android:text="okHttp应用"
+        />
 </LinearLayout>
