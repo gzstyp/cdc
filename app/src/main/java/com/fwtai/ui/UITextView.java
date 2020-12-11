@@ -1,17 +1,16 @@
 package com.fwtai.ui;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
 import com.fwtai.activity.BaseActivity;
 import com.fwtai.interfaces.TitleOnClickListener;
 import com.fwtai.widget.TextViewCollapsed;
 import com.fwtai.widget.TextViewMore;
 import com.fwtai.widget.TitleBar;
 import com.yinlz.cdc.R;
-
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
 
 /**
  * 收起|全文

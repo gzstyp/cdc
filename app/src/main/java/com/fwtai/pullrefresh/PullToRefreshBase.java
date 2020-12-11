@@ -1,8 +1,5 @@
 package com.fwtai.pullrefresh;
 
-import com.fwtai.pullrefreshview.LoadingLayout;
-import com.yinlz.cdc.R;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
@@ -15,6 +12,8 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
+import com.fwtai.pullrefreshview.LoadingLayout;
+import com.yinlz.cdc.R;
 
 public abstract class PullToRefreshBase<T extends View> extends LinearLayout {
 

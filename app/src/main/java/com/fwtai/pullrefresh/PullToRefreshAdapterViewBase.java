@@ -1,7 +1,5 @@
 package com.fwtai.pullrefresh;
 
-import com.fwtai.pullrefreshview.EmptyViewMethodAccessor;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.ContextMenu.ContextMenuInfo;
@@ -15,6 +13,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import com.fwtai.pullrefreshview.EmptyViewMethodAccessor;
 
 public abstract class PullToRefreshAdapterViewBase<T extends AbsListView> extends PullToRefreshBase<T> implements OnScrollListener {
 

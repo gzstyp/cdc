@@ -1,13 +1,12 @@
 package com.fwtai.pullrefresh;
 
-import com.fwtai.pullrefreshview.EmptyViewMethodAccessor;
-import com.yinlz.cdc.R;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View;
 import android.widget.GridView;
+import com.fwtai.pullrefreshview.EmptyViewMethodAccessor;
+import com.yinlz.cdc.R;
 
 /**
  * 下拉刷新控件

@@ -1,26 +1,25 @@
 package com.fwtai.ui;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-
-import com.fwtai.activity.BaseActivity;
-import com.fwtai.http.ToolHttp;
-import com.fwtai.interfaces.IRequest;
-import com.fwtai.interfaces.TitleOnClickListener;
-import com.fwtai.pullrefresh.PullToRefreshListView;
-import com.fwtai.pullrefresh.PullToRefreshBase.OnRefreshListener;
-import com.fwtai.ui.adapter.ImageLvAdapter;
-import com.fwtai.widget.HintDialog;
-import com.fwtai.widget.TitleBar;
-import com.yinlz.cdc.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ListView;
+import com.fwtai.activity.BaseActivity;
+import com.fwtai.http.ToolHttp;
+import com.fwtai.interfaces.IRequest;
+import com.fwtai.interfaces.TitleOnClickListener;
+import com.fwtai.pullrefresh.PullToRefreshBase.OnRefreshListener;
+import com.fwtai.pullrefresh.PullToRefreshListView;
+import com.fwtai.ui.adapter.ImageLvAdapter;
+import com.fwtai.widget.HintDialog;
+import com.fwtai.widget.TitleBar;
+import com.yinlz.cdc.R;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * 图片的应用

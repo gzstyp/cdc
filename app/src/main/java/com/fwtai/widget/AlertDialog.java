@@ -1,18 +1,14 @@
 package com.fwtai.widget;
 
-import android.content.DialogInterface;
-import android.os.Handler;
-import android.view.Gravity;
-import android.view.KeyEvent;
-import com.fwtai.tool.ScreenDisplay;
-import com.fwtai.tool.ToolString;
-import com.yinlz.cdc.R;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.graphics.Color;
+import android.os.Handler;
 import android.text.TextUtils;
+import android.view.Gravity;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -22,6 +18,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
+import com.fwtai.tool.ScreenDisplay;
+import com.fwtai.tool.ToolString;
+import com.yinlz.cdc.R;
 
 /**
  * 自定义对话框,包含一个内容体[有标题和无标题]和一个按钮或2个按钮<br />

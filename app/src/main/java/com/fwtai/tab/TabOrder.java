@@ -1,15 +1,14 @@
 package com.fwtai.tab;
 
-import com.fwtai.activity.BaseFragment;
-import com.fwtai.widget.TitleBar;
-import com.gyf.immersionbar.ImmersionBar;
-import com.yinlz.cdc.R;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import com.fwtai.activity.BaseFragment;
+import com.fwtai.widget.TitleBar;
+import com.gyf.immersionbar.ImmersionBar;
+import com.yinlz.cdc.R;
 
 /**
  * 订单

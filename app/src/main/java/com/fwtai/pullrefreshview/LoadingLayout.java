@@ -1,11 +1,5 @@
 package com.fwtai.pullrefreshview;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import com.fwtai.pullrefresh.PullToRefreshBase;
-import com.yinlz.cdc.R;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.view.LayoutInflater;
@@ -19,6 +13,11 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import com.fwtai.pullrefresh.PullToRefreshBase;
+import com.yinlz.cdc.R;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class LoadingLayout extends FrameLayout {
 

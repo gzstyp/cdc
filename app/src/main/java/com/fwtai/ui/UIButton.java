@@ -1,8 +1,10 @@
 package com.fwtai.ui;
 
-import java.io.IOException;
-import java.util.ArrayList;
-
+import android.app.Activity;
+import android.app.Dialog;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
 import com.fwtai.activity.BaseActivity;
 import com.fwtai.http.ToolHttp;
 import com.fwtai.interfaces.IRequest;
@@ -13,18 +15,14 @@ import com.fwtai.widget.AlertDialog;
 import com.fwtai.widget.BaseDialog;
 import com.fwtai.widget.HintDialog;
 import com.fwtai.widget.SheetDialog;
-import com.fwtai.widget.TitleBar;
-import com.fwtai.widget.ViewEvent;
 import com.fwtai.widget.SheetDialog.OnSheetItemClickListener;
 import com.fwtai.widget.SheetDialog.SheetItemColor;
+import com.fwtai.widget.TitleBar;
+import com.fwtai.widget.ViewEvent;
 import com.yinlz.cdc.R;
 
-import android.app.Activity;
-import android.app.Dialog;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
+import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * 按钮及dialog的应用

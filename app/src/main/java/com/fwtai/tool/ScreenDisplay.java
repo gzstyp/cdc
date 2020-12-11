@@ -1,8 +1,5 @@
 package com.fwtai.tool;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,6 +16,9 @@ import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 /**
  * 获取手持设备屏幕分辨率

@@ -1,12 +1,12 @@
 package com.fwtai.adapter;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 import android.app.Activity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * 基本的Adapter，继承本类只需重实现该类的抽象方法 即可！必须实例化当前的子类。

@@ -1,10 +1,13 @@
 package com.fwtai.ui;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Environment;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.widget.TextView;
 import com.fwtai.activity.BaseActivity;
 import com.fwtai.http.HttpCancel;
 import com.fwtai.http.ToolHttp;
@@ -14,14 +17,10 @@ import com.fwtai.widget.TitleBar;
 import com.squareup.picasso.Picasso;
 import com.yinlz.cdc.R;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.Environment;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ImageView;
-import android.widget.TextView;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**okHttp使用示例*/
 public final class UIRequest extends BaseActivity implements OnClickListener{

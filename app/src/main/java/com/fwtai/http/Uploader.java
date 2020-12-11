@@ -1,15 +1,9 @@
 package com.fwtai.http;
 
-import java.io.File;
-import java.io.IOException;
-import java.lang.ref.WeakReference;
-import java.util.ArrayList;
-
-import com.fwtai.interfaces.IProgress;
-import com.fwtai.interfaces.IUploader;
-
 import android.os.Handler;
 import android.os.Looper;
+import com.fwtai.interfaces.IProgress;
+import com.fwtai.interfaces.IUploader;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.MediaType;
@@ -24,6 +18,11 @@ import okio.ForwardingSink;
 import okio.Okio;
 import okio.Sink;
 import okio.Source;
+
+import java.io.File;
+import java.io.IOException;
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
 
 /**
  * 文件上传处理器

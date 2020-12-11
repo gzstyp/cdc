@@ -1,11 +1,5 @@
 package com.fwtai.widget;
 
-import java.util.HashMap;
-
-import com.fwtai.tool.ScreenDisplay;
-import com.fwtai.tool.ToolAnimation;
-import com.yinlz.cdc.R;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.os.Bundle;
@@ -13,6 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout.LayoutParams;
+import com.fwtai.tool.ScreenDisplay;
+import com.fwtai.tool.ToolAnimation;
+import com.yinlz.cdc.R;
+
+import java.util.HashMap;
 
 /**
  * 通用自定义Dialog组件，Dialog默认所在屏幕的比例大小是85%<br/>

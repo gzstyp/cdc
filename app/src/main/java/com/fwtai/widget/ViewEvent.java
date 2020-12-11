@@ -1,11 +1,10 @@
 package com.fwtai.widget;
 
-import com.fwtai.interfaces.IViewTimer;
-
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.fwtai.interfaces.IViewTimer;
 
 /**
  * 自定义定时器-防止重复提交|操作

@@ -1,8 +1,5 @@
 package com.fwtai.widget;
 
-import com.fwtai.tool.ToolString;
-import com.yinlz.cdc.R;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
@@ -16,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.fwtai.tool.ToolString;
+import com.yinlz.cdc.R;
 
 /**
  * 消息提示

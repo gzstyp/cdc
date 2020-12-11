@@ -1,11 +1,11 @@
 package com.fwtai.thread;
 
+import android.os.Handler;
+import android.os.Message;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import android.os.Handler;
-import android.os.Message;
 
 /**
  * 封装了子线程子类去读取处理远程的数据并返回-OK

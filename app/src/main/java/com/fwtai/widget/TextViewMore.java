@@ -1,7 +1,5 @@
 package com.fwtai.widget;
 
-import com.yinlz.cdc.R;
-
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,6 +15,7 @@ import android.view.animation.Animation;
 import android.view.animation.Transformation;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import com.yinlz.cdc.R;
 
 /**
  * 有全文和收起的TextView

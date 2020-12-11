@@ -1,14 +1,6 @@
 package com.fwtai.ui;
 
-import java.util.ArrayList;
-
-import com.fwtai.activity.BaseActivity;
-import com.fwtai.config.LocalConfig;
-import com.fwtai.widget.CirclePageIndicator;
-import com.yinlz.cdc.R;
-
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.PagerAdapter;
@@ -18,6 +10,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
+import com.fwtai.activity.BaseActivity;
+import com.fwtai.config.LocalConfig;
+import com.fwtai.widget.CirclePageIndicator;
+import com.yinlz.cdc.R;
+
+import java.util.ArrayList;
 
 /**
  * 第一次安装本apk时引导界面

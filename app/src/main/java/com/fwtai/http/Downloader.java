@@ -1,25 +1,24 @@
 package com.fwtai.http;
 
+import android.app.Activity;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Looper;
+import com.fwtai.config.ConfigFile;
+import com.fwtai.interfaces.IDownLoad;
+import com.fwtai.widget.HintDialog;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
-
-import com.fwtai.config.ConfigFile;
-import com.fwtai.interfaces.IDownLoad;
-import com.fwtai.widget.HintDialog;
-
-import android.app.Activity;
-import android.os.Environment;
-import android.os.Handler;
-import android.os.Looper;
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
 
 /**
  * 图片|文件下载器

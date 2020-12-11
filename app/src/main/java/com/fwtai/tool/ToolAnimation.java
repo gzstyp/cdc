@@ -1,12 +1,11 @@
 package com.fwtai.tool;
 
-import com.yinlz.cdc.R;
-
 import android.app.Activity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
+import com.yinlz.cdc.R;
 
 /**
  * 为控件 View添加提示动画工具类

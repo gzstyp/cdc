@@ -1,8 +1,5 @@
 package com.fwtai.widget;
 
-import com.fwtai.interfaces.TitleOnClickListener;
-import com.yinlz.cdc.R;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
@@ -15,6 +12,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import com.fwtai.interfaces.TitleOnClickListener;
+import com.yinlz.cdc.R;
 
 /**
  * 自定义标题栏

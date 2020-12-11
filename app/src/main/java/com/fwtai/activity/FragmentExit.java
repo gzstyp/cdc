@@ -1,9 +1,8 @@
 package com.fwtai.activity;
 
+import android.os.Bundle;
 import com.fwtai.config.App;
 import com.fwtai.widget.HintDialog;
-
-import android.os.Bundle;
 
 /**
  * 主页面-再按一次退出

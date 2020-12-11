@@ -1,12 +1,5 @@
 package com.fwtai.activity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
-import com.fwtai.config.App;
-import com.fwtai.http.HttpCancel;
-import com.fwtai.tool.ToolString;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +10,12 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
+import com.fwtai.config.App;
+import com.fwtai.http.HttpCancel;
+import com.fwtai.tool.ToolString;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * 总页面总框架Fragment

@@ -1,14 +1,13 @@
 package com.fwtai.ui;
 
-import com.fwtai.activity.BaseActivity;
-import com.yinlz.cdc.R;
-
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
+import com.fwtai.activity.BaseActivity;
+import com.yinlz.cdc.R;
 
 import java.util.Timer;
 import java.util.TimerTask;

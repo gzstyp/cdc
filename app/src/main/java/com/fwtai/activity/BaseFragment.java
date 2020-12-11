@@ -1,10 +1,14 @@
 package com.fwtai.activity;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import com.alibaba.fastjson.JSONObject;
 import com.fwtai.config.LocalConfig;
@@ -14,17 +18,12 @@ import com.fwtai.http.ToolHttp;
 import com.fwtai.interfaces.IRequest;
 import com.fwtai.tool.ToolMethod;
 import com.fwtai.tool.ToolString;
-
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import com.fwtai.widget.AlertDialog;
 import com.fwtai.widget.HintDialog;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * 基础的Fragment架构,只需继承并覆写方法即可

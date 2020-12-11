@@ -1,11 +1,5 @@
 package com.fwtai.widget;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.fwtai.tool.ScreenDisplay;
-import com.yinlz.cdc.R;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.graphics.Color;
@@ -19,6 +13,11 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import com.fwtai.tool.ScreenDisplay;
+import com.yinlz.cdc.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public final class SheetDialog {
 	

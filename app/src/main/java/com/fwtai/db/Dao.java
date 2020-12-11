@@ -1,17 +1,16 @@
 package com.fwtai.db;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-
-import com.fwtai.tool.ToolListOrMap;
-import com.fwtai.tool.ToolString;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
+import com.fwtai.tool.ToolListOrMap;
+import com.fwtai.tool.ToolString;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 /**
  * 定义了数据库表操作对象-通用的工具类

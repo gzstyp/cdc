@@ -1,5 +1,18 @@
 package com.fwtai.http;
 
+import android.app.Activity;
+import android.os.Handler;
+import android.os.Looper;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.TypeReference;
+import com.fwtai.interfaces.IRequest;
+import com.fwtai.widget.HintDialog;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Response;
+
 import java.io.File;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -7,20 +20,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.regex.Pattern;
-
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.TypeReference;
-import com.fwtai.interfaces.IRequest;
-import com.fwtai.widget.HintDialog;
-
-import android.app.Activity;
-import android.os.Handler;
-import android.os.Looper;
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.Response;
 
 /**
  * <strong style='color:#03f;'>组装okhttp异步网络请求、数据提交</strong>

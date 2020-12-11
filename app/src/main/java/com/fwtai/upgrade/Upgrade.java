@@ -1,8 +1,13 @@
 package com.fwtai.upgrade;
 
-import java.io.File;
-import java.io.IOException;
-
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.net.Uri;
+import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import com.fwtai.http.Downloader;
 import com.fwtai.http.HttpBase;
 import com.fwtai.http.HttpCancel;
@@ -14,14 +19,8 @@ import com.fwtai.widget.HintDialog;
 import com.fwtai.widget.ViewEvent;
 import com.yinlz.cdc.R;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.net.Uri;
-import android.view.View;
-import android.widget.ProgressBar;
-import android.widget.TextView;
+import java.io.File;
+import java.io.IOException;
 
 /**
  * 更新app自动升级工具类

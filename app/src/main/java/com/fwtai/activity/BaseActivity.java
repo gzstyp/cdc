@@ -1,11 +1,17 @@
 package com.fwtai.activity;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.res.Configuration;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.app.FragmentActivity;
+import android.util.AttributeSet;
 import android.view.KeyEvent;
+import android.view.View;
+import android.view.Window;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import com.alibaba.fastjson.JSONObject;
 import com.fwtai.config.App;
@@ -16,20 +22,13 @@ import com.fwtai.http.ToolHttp;
 import com.fwtai.interfaces.IRequest;
 import com.fwtai.tool.ToolMethod;
 import com.fwtai.tool.ToolString;
-
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.util.AttributeSet;
-import android.view.View;
-import android.view.Window;
-import android.view.inputmethod.InputMethodManager;
 import com.fwtai.widget.AlertDialog;
 import com.fwtai.widget.HintDialog;
 import com.yinlz.cdc.R;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * 实现即可

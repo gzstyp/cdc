@@ -1,13 +1,12 @@
 package com.fwtai.tool;
 
-import com.yinlz.cdc.R;
-
 import android.app.Activity;
 import android.text.InputType;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnFocusChangeListener;
+import android.view.ViewGroup;
 import android.widget.EditText;
+import com.yinlz.cdc.R;
 
 /**
  * EditText工具类

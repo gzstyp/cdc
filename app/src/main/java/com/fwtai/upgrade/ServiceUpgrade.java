@@ -1,17 +1,16 @@
 package com.fwtai.upgrade;
 
-import java.io.File;
-import java.io.IOException;
-
+import android.app.Service;
+import android.content.Context;
+import android.content.Intent;
+import android.os.IBinder;
 import com.fwtai.http.Downloader;
 import com.fwtai.http.HttpCancel;
 import com.fwtai.interfaces.IDownLoad;
 import com.fwtai.widget.HintDialog;
 
-import android.app.Service;
-import android.content.Context;
-import android.content.Intent;
-import android.os.IBinder;
+import java.io.File;
+import java.io.IOException;
 
 /**
  * 转为后台下载apk更新文件

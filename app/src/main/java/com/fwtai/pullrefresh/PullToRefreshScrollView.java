@@ -1,10 +1,9 @@
 package com.fwtai.pullrefresh;
 
-import com.yinlz.cdc.R;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ScrollView;
+import com.yinlz.cdc.R;
 
 public final class PullToRefreshScrollView extends PullToRefreshBase<ScrollView> {
 

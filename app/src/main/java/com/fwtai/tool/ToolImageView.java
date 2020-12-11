@@ -1,14 +1,13 @@
 package com.fwtai.tool;
 
-import java.io.File;
-
+import android.app.Activity;
+import android.graphics.Bitmap;
+import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Transformation;
 import com.yinlz.cdc.R;
 
-import android.app.Activity;
-import android.graphics.Bitmap;
-import android.widget.ImageView;
+import java.io.File;
 
 public final class ToolImageView{
 

@@ -1,5 +1,12 @@
 package com.fwtai.tab;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import com.fwtai.activity.BaseFragment;
 import com.fwtai.interfaces.TitleOnClickListener;
 import com.fwtai.ui.UIButton;
@@ -7,14 +14,6 @@ import com.fwtai.widget.AlertDialog;
 import com.fwtai.widget.TitleBar;
 import com.gyf.immersionbar.ImmersionBar;
 import com.yinlz.cdc.R;
-
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.View.OnClickListener;
 
 /**
  * 任务

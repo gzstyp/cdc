@@ -1,5 +1,13 @@
 package com.fwtai.ui;
 
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
+import android.widget.EditText;
 import com.fwtai.activity.BaseActivity;
 import com.fwtai.interfaces.IViewTimer;
 import com.fwtai.interfaces.TitleOnClickListener;
@@ -11,15 +19,6 @@ import com.fwtai.widget.HintDialog;
 import com.fwtai.widget.TitleBar;
 import com.fwtai.widget.ViewEvent;
 import com.yinlz.cdc.R;
-
-import android.app.Activity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.EditText;
-import android.widget.CompoundButton.OnCheckedChangeListener;
 
 /**
  * 输入框应用

@@ -1,9 +1,9 @@
 package com.fwtai.thread;
 
-import java.util.HashMap;
-
 import android.os.Handler;
 import android.os.Message;
+
+import java.util.HashMap;
 
 /**
  * 封装了子线程子类去读取处理远程的数据并返回-有无Activity或HashMap为参数都可以的，如有则写当前的Activity，没有则写null,同理HashMap

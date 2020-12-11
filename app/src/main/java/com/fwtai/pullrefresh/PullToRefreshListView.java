@@ -1,12 +1,11 @@
 package com.fwtai.pullrefresh;
 
-import com.fwtai.pullrefreshview.EmptyViewMethodAccessor;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View;
 import android.widget.ListView;
+import com.fwtai.pullrefreshview.EmptyViewMethodAccessor;
 
 /**
  * 下拉加载更多,上拉重置重新获取数据。

@@ -1,5 +1,6 @@
 package com.fwtai.thread;
 
+import com.fwtai.tool.ToolString;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -8,8 +9,6 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.CoreConnectionPNames;
 import org.apache.http.util.EntityUtils;
-
-import com.fwtai.tool.ToolString;
 
 import java.io.DataOutputStream;
 import java.io.File;

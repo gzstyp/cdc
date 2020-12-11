@@ -1,7 +1,5 @@
 package com.fwtai.pullrefresh;
 
-import com.yinlz.cdc.R;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.Gravity;
@@ -15,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.Scroller;
 import android.widget.TextView;
+import com.yinlz.cdc.R;
 
 /**
  * 刷新控制view

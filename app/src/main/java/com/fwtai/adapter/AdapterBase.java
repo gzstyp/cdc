@@ -1,11 +1,11 @@
 package com.fwtai.adapter;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * 基本的Adapter，继承本类只需重写 getView 即可！必须实例化当前的子类。[子类的构造方法里的参数是给该子类的成员变量赋初始值的。]

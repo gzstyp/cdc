@@ -1,11 +1,10 @@
 package com.fwtai.pullrefresh;
 
-import com.yinlz.cdc.R;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+import com.yinlz.cdc.R;
 
 public class PullToRefreshWebView extends PullToRefreshBase<WebView> {
 

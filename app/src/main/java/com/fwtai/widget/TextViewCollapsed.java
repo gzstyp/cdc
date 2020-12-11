@@ -1,7 +1,5 @@
 package com.fwtai.widget;
 
-import com.yinlz.cdc.R;
-
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,6 +14,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.TextView;
+import com.yinlz.cdc.R;
 
 /**
  * 有全文和收起的TextView

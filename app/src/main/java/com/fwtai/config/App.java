@@ -1,8 +1,5 @@
 package com.fwtai.config;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
@@ -10,6 +7,9 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.AsyncTask;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 系统的全局变量
