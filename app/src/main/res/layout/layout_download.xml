@@ -161,7 +161,7 @@
             android:text="取消多文件上传" />
     </LinearLayout>
 
-    <ImageView
+    <Button
         android:id="@+id/iv"
         android:layout_width="match_parent"
         android:layout_height="32dp"
@@ -169,8 +169,8 @@
         android:layout_marginLeft="6dp"
         android:layout_marginRight="6dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/btn_bg_blue"
-        android:src="@drawable/temp_icon_20" />
+        android:text="走你"
+        android:background="@drawable/bg_box_dialog" />
 
     <LinearLayout
         android:layout_width="fill_parent"

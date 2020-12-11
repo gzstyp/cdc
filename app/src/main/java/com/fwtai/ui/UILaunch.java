@@ -25,7 +25,7 @@ public final class UILaunch extends BaseActivity{
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.layout_launch);
-		tv_jump_over = (TextView) findViewById(R.id.launch_jump_over);
+		tv_jump_over = findViewById(R.id.tv_jump_over);
 		timer.schedule(task,1000,1000);//时间一秒停顿时间一秒
 		tv_jump_over.setOnClickListener(new OnClickListener(){
 			@Override

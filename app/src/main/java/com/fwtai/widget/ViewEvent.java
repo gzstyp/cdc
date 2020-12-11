@@ -59,7 +59,7 @@ public final class ViewEvent implements Runnable,View.OnClickListener{
 	}
 	
 	/**
-	 * 可以防止提交|操作
+	 * 可以防止提交|操作,仅支持Button???
 	 * @param second 多少秒数值
 	 * @param proceedMsg 执行中的显示提示信息,如:后重新获取验证码
 	 * @param completeMsg 执行完成后显示的信息,如:重新获取验证码
