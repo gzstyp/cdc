@@ -12,6 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import com.fwtai.activity.BaseActivity;
 import com.fwtai.config.LocalConfig;
+import com.fwtai.tab.TabGroup;
 import com.fwtai.widget.CirclePageIndicator;
 import com.yinlz.cdc.R;
 
@@ -102,6 +103,6 @@ public class UIGuide extends BaseActivity{
 	
 	void home(){
 		LocalConfig.getInstance().add(activity,LocalConfig.setup);
-        nextActivityAnim(UIHome.class);
+        nextActivityAnim(TabGroup.class);
 	}
 }

@@ -1,4 +1,4 @@
-package com.fwtai.ui;
+package com.fwtai.tab;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -16,24 +16,19 @@ import android.view.ViewGroup;
 import android.widget.TabHost;
 import com.fwtai.activity.BaseFragment;
 import com.fwtai.activity.FragmentExit;
-import com.fwtai.tab.TabIndex;
-import com.fwtai.tab.TabOrder;
-import com.fwtai.tab.TabOwner;
-import com.fwtai.tab.TabRelease;
-import com.fwtai.tab.TabTask;
 import com.yinlz.cdc.R;
 
 import java.util.HashMap;
 
 /**
- * 进入主页面第1个页面
+ * 进入tab页,默认是第0个页面
  * @作者 田应平
  * @版本 v1.0
  * @创建时间 2016年10月9日 18:06:10
  * @QQ号码 444141300
  * @官网 http://www.fwtai.com
  */
-public final class UIHome extends FragmentExit implements OnClickListener {
+public final class TabGroup extends FragmentExit implements OnClickListener {
 
     private static final String TAB = "tab";
     private static final String TAB_INDEX = "tab_index";//首页

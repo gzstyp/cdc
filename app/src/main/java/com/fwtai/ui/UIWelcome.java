@@ -10,6 +10,7 @@ import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import com.fwtai.activity.BaseActivity;
 import com.fwtai.config.LocalConfig;
+import com.fwtai.tab.TabGroup;
 import com.yinlz.cdc.R;
 
 /**
@@ -51,7 +52,7 @@ public final class UIWelcome extends BaseActivity{
 			if (exist == null){
 				into(UIGuide.class);
 			}else{
-				into(UIHome.class);
+				into(TabGroup.class);
 			}
 		}
 	};
