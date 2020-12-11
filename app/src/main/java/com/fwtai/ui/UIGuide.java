@@ -104,9 +104,6 @@ public class UIGuide extends BaseActivity{
 	
 	void home(){
 		LocalConfig.getInstance().add(activity,LocalConfig.setup);
-		Intent intent = new Intent(this,UIHome.class);
-		startActivity(intent);
-		finish();
-		overridePendingTransition(R.anim.ui_left_in, R.anim.ui_left_out);
+        nextActivityAnim(UIHome.class);
 	}
 }

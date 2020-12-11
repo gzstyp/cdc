@@ -80,9 +80,8 @@ public class UIDownload extends BaseActivity implements View.OnClickListener {
 		titleBar.setRightText("闪屏");
 		titleBar.setRightClickListener(new TitleOnClickListener(){
 			@Override
-			public void onClick(View view){
-				startActivity(new Intent(activity,UILaunch.class));
-				overridePendingTransition(R.anim.ui_left_in, R.anim.ui_left_out);
+			public void onClick(final View view){
+                nextActivityAnim(UILaunch.class);
 			}
 		});
 		/**下载QQ*/

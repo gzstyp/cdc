@@ -61,10 +61,8 @@ public class UIButton extends BaseActivity{
 		titleBar.setRightText("下载");
 		titleBar.setRightClickListener(new TitleOnClickListener(){
 			@Override
-			public void onClick(View view){
-				final Intent intent = new Intent(activity,UIDownload.class);
-				startActivity(intent);
-				overridePendingTransition(R.anim.ui_left_in, R.anim.ui_left_out);
+			public void onClick(final View view){
+                nextActivityAnim(UIDownload.class);
 			}
 		});
 		new ViewEvent(findViewById(R.id.button_btn_error),1,new IViewTimer(){

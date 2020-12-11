@@ -59,9 +59,6 @@ public final class UIWelcome extends BaseActivity{
 	};
 	
 	void into(final Class<?> cls) {
-		final Intent intent = new Intent(this,cls);
-		startActivity(intent);
-		finish();
-		overridePendingTransition(R.anim.ui_left_in, R.anim.ui_left_out);
+	    nextActivityAnim(cls);
 	}
 }
