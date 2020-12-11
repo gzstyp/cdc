@@ -38,6 +38,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+        <!--适配华为（huawei）刘海屏-->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true"/>
+        <!--适配小米（xiaomi）刘海屏-->
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+
         <!-- 后台下载apk更新文件的服务 -->
         <service android:name="com.fwtai.upgrade.ServiceUpgrade"/>
         <!-- 第一次安装本apk时引导界面 -->
