@@ -28,7 +28,7 @@ import java.util.HashMap;
  * @QQ号码 444141300
  * @官网 http://www.fwtai.com
  */
-public final class TabGroup extends FragmentExit implements OnClickListener {
+public final class TabInit extends FragmentExit implements OnClickListener {
 
     private static final String TAB = "tab";
     private static final String TAB_INDEX = "tab_index";//首页
